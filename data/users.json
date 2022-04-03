@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "name": "Ismet",
+        "lastname": "Cetin",
+        "username": "ismetcetin",
+        "meal": {
+            "id":"2922c286-16cd-4d43-ab98-c79f698aeab0",
+            "name": "Breakfast",
+            "totalCal": "",
+            "ingr1": "2 eggs",
+            "ingr2": "1 tbs butter",
+            "ingr3": "1 pcs bread",
+            "ingr4": "1 avocado",
+            "ingr5": "1 green apple"
+        },
+        "meal": {
+            "id":"5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
+            "name": "Lunch",
+            "totalCal": "",
+            "ingr1": "2 eggs",
+            "ingr2": "1 tbs butter",
+            "ingr3": "1 pcs bread",
+            "ingr4": "1 avocado",
+            "ingr5": "1 green apple"
+        }
+    }
+]   
