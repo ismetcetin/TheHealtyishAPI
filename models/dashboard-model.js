@@ -1,5 +1,5 @@
 const fs = require("fs");
-const usersDataPath = "../data/users.json";
+const usersDataPath = "./data/users.json";
 
 exports.getUserCalorieIntake = () => {
     const userCalorieIntake = fs.readFileSync(usersDataPath);

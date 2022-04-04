@@ -6,7 +6,8 @@ require("dotenv").config();
 const dashboardController = require("../controllers/dashboard-controller");
 
 router 
-    .route("/dashboard/:id")
-    .get(dashboardController.getSingleUserData);
+    .route("/:id")
+    .get(dashboardController.getSingleUserData)
+    .post(dashboardController.postSingleUserData)
 
 module.exports = router ;    
