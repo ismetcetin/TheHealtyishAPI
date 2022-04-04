@@ -16,41 +16,6 @@
           "1 cup cucumber",
           "1 cup black coffee"
         ]
-      },
-      {
-        "id": "b53df910-00b8-4298-b35c-00a96a180dd0",
-        "name": "Snack-1",
-        "totalCal": 205,
-        "ingredients": [
-          "1 green apple",
-          "1 tbs penut butter",
-          "1 cup green tea"
-        ]
-      },
-      {
-        "id": "426dc014-84f6-495f-ba71-375b67e21e19",
-        "name": "Lunch",
-        "totalCal": 103,
-        "ingredients": [
-          "1 green apple",
-          "1 cup coffee"
-        ]
-      },
-      {
-        "id": "8cf5447a-e908-4edb-80ce-c355e9cd05fd",
-        "name": "Dinner",
-        "totalCal": 101,
-        "ingredients": [
-          "1 green apple"
-        ]
-      },
-      {
-        "id": "ba62c911-e007-46c8-a790-de69d7b2d142",
-        "name": "Snack-2",
-        "totalCal": 101,
-        "ingredients": [
-          "1 green apple"
-        ]
       }
     ]
   }
