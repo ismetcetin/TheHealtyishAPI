@@ -6,36 +6,47 @@
     "username": "ismetcetin",
     "meals": [
       {
-        "id": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
-        "name": "Lunch",
-        "totalCal": "",
-        "ingredients": [
-          "1 green apple",
-          "3 tomatoes",
-          "1 tbs peanut butter"
-        ]
-      },
-      {
-        "id": "2922c286-16cd-4d43-ab98-c79f698aeab0",
+        "id": "559f9585-cbec-48d5-88c1-1c137ada8aaf",
         "name": "Breakfast",
-        "totalCal": "",
+        "totalCal": 208,
         "ingredients": [
-          "1 green apple",
-          "3 tomatoes",
-          "1 tbs peanut butter"
+          "2 large egg",
+          "1 tspn butter",
+          "5 cherry tomatoes",
+          "1 cup cucumber",
+          "1 cup black coffee"
         ]
       },
       {
-        "id": "249a900d-1e1d-4030-a597-011f67418277",
+        "id": "b53df910-00b8-4298-b35c-00a96a180dd0",
+        "name": "Snack-1",
+        "totalCal": 205,
+        "ingredients": [
+          "1 green apple",
+          "1 tbs penut butter",
+          "1 cup green tea"
+        ]
+      },
+      {
+        "id": "426dc014-84f6-495f-ba71-375b67e21e19",
         "name": "Lunch",
+        "totalCal": 103,
+        "ingredients": [
+          "1 green apple",
+          "1 cup coffee"
+        ]
+      },
+      {
+        "id": "8cf5447a-e908-4edb-80ce-c355e9cd05fd",
+        "name": "Dinner",
         "totalCal": 101,
         "ingredients": [
           "1 green apple"
         ]
       },
       {
-        "id": "e544760a-f2d1-4830-9a92-c05f1ffa5fa3",
-        "name": "Breakfast",
+        "id": "ba62c911-e007-46c8-a790-de69d7b2d142",
+        "name": "Snack-2",
         "totalCal": 101,
         "ingredients": [
           "1 green apple"
