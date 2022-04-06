@@ -26,7 +26,7 @@ exports.getSingleUserData = (req, res) => {
 
 exports.postSingleUserData = (req, res) => {
   const allUsersData = JSON.parse(fs.readFileSync("./data/users.json"));
-  console.log(allUsersData)
+  console.log(allUsersData);
 
   axios
     .post(`${URL}?app_id=${APP_ID}&app_key=${APP_KEY}`, {
@@ -35,8 +35,7 @@ exports.postSingleUserData = (req, res) => {
     })
     .then((res) => {
       allUsersData.forEach((user) => {
-        if (user.id === req.body.user_id) 
-        {
+        if (user.id === req.body.user_id) {
           const newMeal = {
             id: uuidv4(),
             name: req.body.mealName,
@@ -50,6 +49,8 @@ exports.postSingleUserData = (req, res) => {
           );
         }
       });
+    })
+    .then(() => {
+      res.status(201).json(allUsersData);
     });
-    res.status(201).json(allUsersData);
-  };
+};
